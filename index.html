@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YD's Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- QUIZ BLOCK : where quizes appear : -->
+
+        <div class="quiz_block">
+
+            <!-- here questions appear : -->
+
+            <div class="question" id="question">
+                <h1 style="display: inline;">Q1 : </h1>
+                <h2 style="display: inline;">Question comes here...</h2>
+            </div>
+
+            <!-- here options appear : -->
+
+            <div class="opt" id="opt">
+                <ul>
+                    <li>
+                        <input type="radio" name="options" value="a" id="ans1" class="options" checked>
+                        <label for="ans1" value="a" id="opt1">Option 1</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="options" value="b" id="ans2" class="options">
+                        <label for="ans2" value="b" id="opt2">Option 2</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="options" value="c" id="ans3" class="options">
+                        <label for="ans3" value="c" id="opt3">Option 3</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="options" value="d" id="ans4" class="options">
+                        <label for="ans4" value="d" id="opt4">Option 4</label>
+                    </li>
+                </ul>
+
+
+                <!-- submit btn : -->
+
+                <button id="submit">Next</button> 
+            </div>
+            <!-- SCORE BLOCK : where scores are displayed -->
+
+            <div id="scoreboard" class="score_block">
+
+                <!-- this part will appear when we "submit" : -->
+
+            </div>
+        </div>
+    </div>
+    <script src="quizapp.js"></script>
+</body>
+
+</html>
