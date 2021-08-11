@@ -125,7 +125,7 @@ submit.addEventListener('click', () => {
         opt.style.display = "none";
 
         if (score < 3) {
-            scoreboard.innerHTML = `<h2>Ohps 😢 you lost<h2>
+            scoreboard.innerHTML = `<h2>bsdk bap k bare m nhi pta tuje<h2>
                                     <h1>Your score : ${score}</h1>
             <button id="playagain" class="play_again">try again</button>`;
 
